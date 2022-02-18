@@ -1,7 +1,7 @@
 body {
   background: url(../images/Background.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 
 h1 {
@@ -45,7 +45,7 @@ button {
   text-shadow: 0 0 1px rgb(0, 0, 0, 0.2);
   box-shadow: 1px 1px 10px black;
   height: 2rem;
-  width: 5rem;
+  width: 3rem;
   border: 1px solid gray;
   border-radius: 2.5rem;
   color: white;
@@ -90,7 +90,7 @@ img {
 
 #title {
   display: inline-flex;
-  margin-top: 10rem;
+  margin-top: 1rem;
 }
 
 p {
