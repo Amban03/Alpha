@@ -66,6 +66,7 @@ li {
 }
 
 footer {
+  margin-bottom: 1rem;
   font-family: serif;
   color: red;
   font-size: 3rem;
@@ -74,7 +75,6 @@ footer {
 }
 
 q {
-  margin-top: 2rem;
   text-align: center;
   font-size: 1.2rem;
   margin-left: 0.8rem;
