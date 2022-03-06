@@ -14,6 +14,7 @@ setInterval(moveHeading, 30);
 let task = [];
 var clicks = 0;
 
+
 function addTask(){
     let template = task.map(task => "<li>" + task + "</li>").join("\n");
     document.querySelector("ol").innerHTML = template;
