@@ -9,19 +9,19 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <audio autoplay loop src="audio/Final Fantasy Dissidia - Preparation for battle.mp3"></audio>
+    <audio id="bgm" autoplay loop src="audio/Final Fantasy Dissidia - Preparation for battle.mp3"></audio>
     <div id="title">
         <h1>TO DO LIST</h1> <img src="images/pirate.png" alt="">
     </div>
 
      <div class="container">
          <input type="text" placeholder="Enter your task here...">
-         <button id="btn">Enter</button>
+         <button id="btn" onclick="audio.play();">Enter</button>
          <h2>3 Major things to do</h2>
          <ol></ol>
      </div>
      <footer></footer>
-      <p></p>  
+      <p></p>
       <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
       <script src="index.js"></script>
 </body>

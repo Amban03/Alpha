@@ -11,9 +11,11 @@ var moveHeading = function () {
 
 setInterval(moveHeading, 30);
 
+const audio = new Audio();
+      audio.src = "audio/Click.mp3";  
+
 let task = [];
 var clicks = 0;
-
 
 function addTask(){
     let template = task.map(task => "<li>" + task + "</li>").join("\n");
