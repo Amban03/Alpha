@@ -28,6 +28,7 @@ let btnAdd = document.querySelector("button");
 let input = document.querySelector("input");
 
 btnAdd.addEventListener("click", () => {
+ audio.play();
  task.push(input.value);
  input.value = "";
  addTask();
